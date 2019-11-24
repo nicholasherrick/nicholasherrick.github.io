@@ -1,11 +1,10 @@
 /* Navbar */
 
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: black;
     padding: 20px;
     width:350px;
     margin-left: 12% !important;
-    margin-top: 25px;
     padding-bottom: none;
 }
 
@@ -15,6 +14,8 @@
 
 .nav-link {
     margin-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .navbar-nav {
@@ -24,7 +25,11 @@
 /* Body */
 
 body {
-    background-image: url("../images/dust_scratches.png");
+    background-image: url("../images/grunge_wall.png");
+}
+
+#about-text {
+    font-size: 20px;
 }
 
 /* Main Content */
@@ -46,7 +51,7 @@ hr{
 
 .footer {
     background-color: #666;
-    border-top: 8px solid #4aaaa5;
-    padding-top: 60px;
-    padding-bottom: 5px;
+    border-top: 8px solid black;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
