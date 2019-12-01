@@ -44,17 +44,27 @@ hr{
 
 .imglinks {
     width: 100%;
+    border: 3px solid #cccccc !important;
+    border-bottom: none !important;
 }
 
 p span {
     font-size:13px;
 }
 
+button {
+    border: 3px solid #cccccc !important;
+}
+
+.github-button {
+    border-top: none !important;
+}
+
 /* Footer */
 
 .footer {
     background-color: #666;
-    border-top: 8px solid black;
+    border-top: 3px solid black;
     padding-top: 25px;
     padding-bottom: 10px;
 }
