@@ -103,7 +103,7 @@ button {
 
 @media screen and (max-width: 980px) {
     .navbar-brand {
-        background-size: 500px;
+        background-size: 100%;
         background-color: black;
         padding: 20px;
         width:500px;
@@ -113,7 +113,7 @@ button {
     }
     
     nav h1 {
-        font-size: 35px;
+        font-size: 45px;
         font-family: 'Bowlby One SC', cursive;
     }
     
@@ -151,18 +151,18 @@ button {
 
 @media screen and (max-width: 768px) {
 
-    .navbar-brand {
-        background-size: 500px;
+    nav .navbar-brand {
+        background-size: 100%;
         background-color: black;
-        padding: 20px;
+        padding: none !important;
         width:100%;
-        margin-left: 12% !important;
+        margin-left: none !important;
         padding-bottom: none;
         -webkit-text-stroke: 3px black;
     }
     
     nav h1 {
-        font-size: 35px;
+        font-size: 45px;
         font-family: 'Bowlby One SC', cursive;
     }
     
