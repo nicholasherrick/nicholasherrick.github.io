@@ -41,6 +41,10 @@ body {
     font-size: 22px !important;
 }
 
+#about-image {
+    width:300px;
+}
+
 .card-title {
     font-family: 'Bowlby One SC', cursive;
 }
@@ -93,4 +97,43 @@ button {
     border-top: 3px solid black;
     padding-top: 25px;
     padding-bottom: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+    .navbar-brand {
+        background-size: 500px;
+        background-color: black;
+        padding: 20px;
+        width:500px;
+        margin-left: 12% !important;
+        padding-bottom: none;
+        -webkit-text-stroke: 3px black;
+    }
+    
+    nav h1 {
+        font-size: 45px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+    
+    .nav-link {
+        margin-right: 30px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    body {
+        font-size: 30px !important;
+    }
+
+    .about-text {
+        font-size: 50px !important;
+    }
+
+    #about-image {
+        width: 100%;
+    }
+
 }
