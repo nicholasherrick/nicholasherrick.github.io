@@ -134,6 +134,19 @@ button {
     #about-image {
         width: 50%;
     }
+
+    #contact-card p {
+        font-size: 30px;
+    }
+    
+    #contact-card h4 {
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    p span {
+        font-size:20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -169,6 +182,19 @@ button {
 
     #about-image {
         width: 100%;
+    }
+
+    #contact-card p {
+        font-size: 40px;
+    }
+    
+    #contact-card h4 {
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    p span {
+        font-size:25px;
     }
 
 }
