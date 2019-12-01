@@ -37,8 +37,8 @@ body {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-#about-text {
-    font-size: 20px;
+.about-text {
+    font-size: 22px !important;
 }
 
 .card-title {
@@ -47,6 +47,15 @@ body {
 
 #contact-card h4 p {
     font-family: 'Times New Roman', Times, sans-serif;
+}
+
+#contact-card p {
+    font-size: 22px;
+}
+
+#contact-card h4 {
+    font-weight: bold;
+    font-size: 26px;
 }
 
 /* Main Content */
@@ -66,7 +75,7 @@ hr{
 }
 
 p span {
-    font-size:13px;
+    font-size:15px;
 }
 
 button {
