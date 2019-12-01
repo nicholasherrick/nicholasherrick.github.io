@@ -1,11 +1,19 @@
 /* Navbar */
 
 .navbar-brand {
+    background-image: url("../images/code.jpg");
+    background-size: 500px;
     background-color: black;
     padding: 20px;
-    width:350px;
+    width:500px;
     margin-left: 12% !important;
     padding-bottom: none;
+    -webkit-text-stroke: 3px black;
+}
+
+nav h1 {
+    font-size: 45px;
+    font-family: 'Bowlby One SC', cursive;
 }
 
 .navbar {
@@ -26,10 +34,19 @@
 
 body {
     background-image: url("../images/grunge_wall.png");
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 #about-text {
     font-size: 20px;
+}
+
+.card-title {
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#contact-card h4 p {
+    font-family: 'Times New Roman', Times, sans-serif;
 }
 
 /* Main Content */
