@@ -47,6 +47,7 @@ body {
 
 .card-title {
     font-family: 'Bowlby One SC', cursive;
+    white-space: nowrap !important;
 }
 
 #contact-card h4 p {
@@ -60,6 +61,10 @@ body {
 #contact-card h4 {
     font-weight: bold;
     font-size: 26px;
+}
+
+#about-second {
+    margin-top: 40px !important;
 }
 
 /* Main Content */
