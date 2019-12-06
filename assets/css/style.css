@@ -2,10 +2,10 @@
 
 .navbar-brand {
     background-image: url("../images/code.jpg");
-    background-size: 500px;
+    background-size: 600px;
     background-color: black;
     padding: 20px;
-    width:500px;
+    width:600px;
     margin-left: 12% !important;
     padding-bottom: none;
     -webkit-text-stroke: 3px black;
@@ -35,6 +35,8 @@ nav h1 {
 body {
     background-image: url("../images/grunge_wall.png");
     font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px !important;
+    margin-bottom: 100px;
 }
 
 .about-text {
@@ -104,6 +106,47 @@ button {
     padding-bottom: 10px;
 }
 
+h1 {
+    display: inline-block;
+}
+
+.icons-all {
+    display: inline-block;
+}
+
+#html {
+    color: red;
+}
+#css {
+    color: blue;
+}
+#bootstrap {
+    color: purple;
+}
+#javascript {
+    color: #FFE135;
+}
+#jquery {
+    color: #9BDDFF;
+}
+#firebase {
+    color: orange;
+}
+#moment {
+    color: #66FF00;
+}
+#node {
+    color: green;
+}
+#npm {
+    color: #DC143C;
+}
+
+.icons {
+    color: #3B444B;
+    width: 5%;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
@@ -111,7 +154,7 @@ button {
         background-size: 100%;
         background-color: black;
         padding: 20px;
-        width:500px;
+        width:600px;
         margin-left: 12% !important;
         padding-bottom: none;
         -webkit-text-stroke: 3px black;
